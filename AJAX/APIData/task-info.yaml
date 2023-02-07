@@ -1,0 +1,107 @@
+type: edu
+files:
+- name: task.js
+  visible: true
+  placeholders:
+  - offset: 114
+    length: 0
+    placeholder_text: ""
+    initial_state:
+      length: 0
+      offset: 114
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: dA48MQNxH0BIss0UpgmQd1cTxQ6WViLJg3EGRAZMVPY=
+  - offset: 221
+    length: 46
+    placeholder_text: "button.addEventListener('click', getPokemons);"
+    initial_state:
+      length: 46
+      offset: 221
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: Z6ejPsJR/bqBjxKjvrlOnirrxRy8+3hBSEgSLhhML05e1cYYUTKiGncSYtSlapS43IqKPIywG4UXKOwa0HwVlw==
+  - offset: 317
+    length: 0
+    placeholder_text: ""
+    initial_state:
+      length: 0
+      offset: 317
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: cIsT1WOEIlRi5YYDMO+Yxjnc4F/YNglD6uAmzqn+nXNm/fUuY/DwlBydcitmVikNN6DKwXIfXTiMVi4hVNVMeO2xluqwnkZwvv0PMuck2XMJtw2cIRxZn6AMZZ/Ke6qXrVNQjyqY/SRLKzaY0e7bDlUwfy2MmAMWWGe7P37KWpDBE47goWJa5RvZ3yVuOhKeWOQAFHmd6xM+XeIXrxU2lQ==
+  - offset: 374
+    length: 303
+    placeholder_text: |-
+      function getPokemons() {
+          fetch(apiUrl)
+              .then((response) => {
+                  if (!response.ok) {
+                      throw new Error(response.statusText);
+                  }
+                  return response.json();
+              })
+              .then(getPokemonsSuccessHandler)
+              .catch(getPokemonsErrorHandler);
+      }
+    initial_state:
+      length: 303
+      offset: 374
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: nnToIrZ2ICDoEUN2V36mJq8EeDZlDYIrkrz3gCcRREEOt723FRRpnvpWSUFjlWD0Th36ae3AS7Xz+9KUkDa6tJNYfEY8peqLsMv5ZtEBa7YZABEMum+W6B0IrpEN3XgpZ7QKl73NmJD8cNJXx6uCGWDBYUudSggIyBZncDiYlvtDq7EaArfZdvPe32NepbYB4BlMyR7SHSLykRJuuaqgSSYsv6p0wQyuQtzjOR4oKfx1icso1S7EIh0/WVg1/BAX2aVhD+ILvrlc/69HCcb9/d1OJ5fee5J9ZaSLdj4HEdn5QvD3VVXaYjC3ge8iJH74B5Wba4jSfZB9+ZzR+F65nHBmUm28KaP8Uog7rp5t7WbAE4YocRZljfndzFFUa8QAto+pNHU6ptVDQigq9rjsYzVydiWICyLy3846BapOckk=
+  - offset: 815
+    length: 18
+    placeholder_text: console.log(data);
+    initial_state:
+      length: 18
+      offset: 815
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: lPfX1svnsiJ7dHkWFq+zkK5eYRqv3OUNEy0/vv2SflHWupK3wIIZA1R4eKKxjl47IUFNPg85N2gU8u8VbMoOJVfAwdIf9MUsRaeiKi0xUzfCCeOovmXQXrUYHgDtuvw9OVxvmh7670g1+Q6fIVZyoI0gOvt33JcONhQv1vSltu5CKbRJ84bTlHWUic4YwoVtdorn4ORXksPqvTQ0bPSgyhry3Dil9jmrGCtoF27ufvWmyDIQebUOX4lxXySoBpRCEY0xSkk7q9Wb/anmSm8ZjlQtt90Y50PTNbrRjewJ5axtoBfSuH7mBCY4axDesCb3RrTx6X3zZ0h6mskEQeORnF8epHN81bDm/A+quP7CiBp5BbEru7NNCNmkpjX8t7QuwsDG8pYrmd4inX2Kjh8gEsDqKuS6JfuY3GuY9sMdJLLWmff0TZkF/5iEe/SQ2aibZGL/8pPjZof0hzPf1DB50+BYqiIZNE0BxHUIO6MqjlhkKV5AhXXHswZJQlYXuyrcmfX9E5Us+/do0gsiy0usIYeWmEUQe5afDZbNiybdwaK7ZNE3NQBSc0EGDMy/8nP7jFt+4aNSkyESxraKg1sGiMwPkptfr7JCyNFvlCgtnyYNXIB98YjsNkXW8jSb8nYp74LdoMRqpk7uCIXx1uulTR8VSqScpk4JER5elmVBgjZ6nVNW3EEkUNc7S+ZFp5JVJVoAYOUwJskJDKh56QT4BefMBy/jikEmI27iSU9xlhRN7S6Me2DOdp5Exp9lxeYGxsF1MH849DEDe5BYTLGpyKFuMtdEcw40uLI1ktHOJNhrYrwvfevTW/Mf0UWU+LvAgMxxw4mlLnZWydTdhtjEwS+piYNG9xYvkc6yMQYiSRpZ5E8ei2jGWtOwvv9ZGPOnOMRU25CqGwMxbLWkK+ENOP6w50fd9ew53IwjKSoqlnixUHx26lWEK8RZ5xNLtaAGmXA710EqTKw7JhFvaRlImZKV9cZifRJT1e/F3WRToOuO0pzDtNxhsQ4P90n8QaTB
+  - offset: 836
+    length: 0
+    placeholder_text: ""
+    initial_state:
+      length: 0
+      offset: 836
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: nyNTf9V3FZ7qeulGoMQQbpCCneHacyGx9sRpu6g/yAF2MoIVVjx1tF3DGDZ+ruombNBT7ORpGtuFXc26ICvI0odETUAAf+PScYYXmjfbbhvua/mdGTjnhK8NMJlupmMyMKjHS0R1go40Gu85tjUmxKPcktyfq0uHgpDkct0Za6mB2yztD7QrVwPBLWaTrnWoItU8tNAHvEU8C17EM2au8eNTF0jF2jA3y+fDqOzYmnGLY6xWwWg6ywWh9GYeZfO8f+Z23gSASQfKTnwgMGg/ces8h7GNFABcNrBRuLKhTdwVE88NwxD2qEhv14KLDAnsL5xpMI62BpGu8N5Vx3+gEhoHWGF1+sM9u2s81qDcVGx8R1zOlPNJtRp7mOKxy970za8zKa95z53PF7X3sUmz7xo4vqt2xB+fRlRZ9GT6gE1iMiFUAEmurKQ686anCp1SRqY5W9rku/3qHY1xKlCbLrV5/OdcDOOlMI8dWyVm1+tx+gtZXxCqFe8E9iv7PaeV1MVqKioMxAZXUi5F4QUlPR78bDS14TQhSyIHFlnxt/5UeG51SmOV/eBVN0uleDq2GjUng8donAnea1hMA8pT2ypB1XOgaH26rgLvKEXrP+lHGhBreQBhOW+Jg60nQ9oDc3q1xgU8Z3h+rUdJUOabCjp27py5kgEWO5xjBYFyMmqqG4sbrJFN6I87rI51hm4FC36dzvWtzkdtU38a+igAuQ3jkrrEZaZUDrO2ZLD9NpXC8RX45alD15g6G7Z/xnJVqEj3TcBQoucIJJ6jjoT3dlWqjyzLkGtMzoG12KFbrV9cB4W5h7Kyikqfj9k9nEhv3dGN+/jS40Dlpj1mB+EnXbRrxH6rxYHS1k1CAPeLBlOkFbqbocihQxDFWR3LkkXS0CGGDCouivKRP0LQQLlcn5JFjmdERZ3InK4B5aamer8NE2Pzt7YQc2AaJCsVDIcq
+  - offset: 999
+    length: 67
+    placeholder_text: |-
+      function getPokemonsErrorHandler(data) {
+          console.error(data);
+      }
+    initial_state:
+      length: 67
+      offset: 999
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: nnToIrZ2ICDoEUN2V36mJsC9UtMJlQqRivTxF6E/eRls/pT6cTFG6GAhIXdQCdv5qu9Kaf6I+8S6lYgTWPs8B6zvzB4PFmMuW544x76+D2k=
+  encrypted_text: H+LDbt2inq3oD6Ru+oJ/uFG0es8zk+sHzQcRd8nm4dz/6z2Q9VFNZ4U9UGkwwERmWVb33LVnyP3wGTpkkhMM2705+ipoous4ak8vCHsPLXkBiAOtbcf+2+eP2tr9pdsl3smQlFMVBq8Sb5/qhAo6m+PgkUm8+h6Rni7ZBNAPg2qyJfy8MfGDLeN7PXNHgAbhzsRDNkoX8uOV41Eu0nJOqGdkP5NIb7dA/VCzNsu3g6AuwuFArsT3OH4GTJLW91ddRoR51F+8ZrjOfvSeWw9neqB3KfyEviYu2UdAg9p0qw1lhB39bEns4WQSXMNnugQv/Z5SLMgkrxzFolIGkZljlsj4jD0Ojr45wOlzRAmULGhjFiva6mDSdlqlv817+M3xSKZ67V2Xv/oW21N6YCbdOMP1ceRNbDNZqxs8k1Gu1Kj+mV2Scj9NQgrk4y13dZ9bFR1mfwR7ICL3KScyQxaATcokRZArCGRlBCQD5VrH/JEfAkPe42l0t+iq/sB3KR2Ed6bM7UgVTXmq7Uro9uQrIYCzsMSYnCStwhGiOVi2sDpbF4kSomhr9mwWkDgi+bBjoJ+mK9fa4KPjy1J/9T24rFwU7xeewOkXd460O5sg802+nCoo49GAcGuyb6sOXY290Xeuf4+7QoQ/yLRebxnkwEGcC2ukurY3E60NYV6U8/OSAfgrKkhC5JVI2+XMQeypVFi4jNirx9K83le0Fp/UtXz89i6dGjqdQ7x2dhEZMF+BRHopAwB7QYb3/g5P4avy8M4JfGpiCFxA6xY/Me03cRcUQTktZt5bpazER7RYMltvOYDPkEwHbc7502Rv654Be61eS4wht65tKSTCjwXStM1hDgPbh2Hv5KmdD+uf0a8r8BrS3Wracf7vVxLKawGnHYi84pDaIMBULrFoBC8OdhNsZZOzyL5Ogsv5RRfKDwn80B9K+faR9399x9tPXqxLQnOq0LX9kEgx3FSLgrKQ/mPplLtEZc/jfD0yGnS7psgKijwcwWBkEZreMtA/aPqhR9ON74P0G8FyyIi/T/mJ8qBxQCL2soVODit4PV313JE23J9e1uLpGaS/xVIZ26W3krMfQws0FtlCuy6mz6KJ88RygGpu1a0ejLUmwfoI5jgh4i+4xRanCCtFIQ1rJNjcKpKtet3VCE5GLG3ZCfbP8O9Or1BQjiE3IF1yvZHh5IC3ZATJHfdFF+3IvZq7Ln4fjRXeGf9TC570zDsq/hIRnPmuGj2NUgZ6aZM1FA80RKypsIrYOiGI909C3jcmoste5spCbNOJmQyTkdx/iOSKCXNqlz/LFsLXXFYIJU+ZSrmVpZMOB55v8VbbwqtJsSqJl1I6DCNmFx0beJbCtIbbgAfuMTkPqeAzW/D+gxPmDcwngU+3lh+uK/p0CeHJd1izBgSvF8XlVwgmPKgjFzj/wg==
+  learner_created: false
+- name: test/test.js
+  visible: false
+  encrypted_text: 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
+  learner_created: false
+- name: index.html
+  visible: true
+  encrypted_text: MDmo0BDmYPgVilQBNgV6/Lu5o2xOLdv/8eKeyV0fRUozNOkGxehQNEvN+eYbtUJiN4nbt5c61wZghQsClfMgx4IuDg3bsIlt80Xsab47Ale7Tyx8axOh9AAbppzjnjAmPxn5G6mfgyizGKevr6dcglloHUs1eCdlG1R3uxdIfg0MxQIg3KUEGqZB69ypuMqyDbYTgIf/pfOzeH9AU2mwbWvNxbGyFKEAU5Kc6incNhJXhkB1oO3RM38lp3MrdWzVQ+8S2tVYRIDAFxyXF2aWNoYcZB1RwhrEzyHIDb4hdizyptELzSUJORtcHHydIGIYEvs6tQtuO95VOeC2iYt/4cbz4HCfAJYGhmgk6ql4dzIsyqJB1ugnIs0V4Cf3MWeLpGG1JvtyikE4+HzeE37vQUIiPE+MWKEtbEaBB7fYy6s=
+  learner_created: false
+- name: test/pokemon.json
+  visible: false
+  learner_created: false
+- name: test/pokemon-detail.json
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

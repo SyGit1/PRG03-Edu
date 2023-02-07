@@ -1,0 +1,9 @@
+type: theory
+files:
+- name: task.js
+  visible: true
+  encrypted_text: mNHOxI46kkCZshV4qvgLK/rOK1OFruDjJ3Ws3Vo2X2garmKwPAHmAkjdUAoTJuZ7HFGJTFIR77BaCs56ZslVJVVQPHQ4MY3h7CmkgKPag1CNNePQURYjzCCd0vpEJNIWHRtJ+HN3YciBhn8lGVj3FhSsB03WRNO3ShM/DSwUfXD6dWIP5fkdvwLhpdBJZ9AAwgzyiVfIVt0UE2Eh9QOJO0e0vi/rB1Jn5Cfh99eGFb8Vc4Sqm6xIosSyFcSAse+zriOIskX4EsyxNx9S9fI+FkCjS48ZPxm06M+XobNLCbgDxrVCIhKq58SZ4yXgjJo8Wdu09R97DFfHhnhHr3IgU11kA4paiZpbKDvrcNmHr1BF/293sInFFuHaPeZeOIhamJfUqrx4QdjZV/XMmBJ2M0zcno+asJdhKbfgDlDoc2I=
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

@@ -1,0 +1,80 @@
+type: edu
+files:
+- name: task.js
+  visible: true
+  placeholders:
+  - offset: 39
+    length: 0
+    placeholder_text: ""
+    initial_state:
+      length: 0
+      offset: 39
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: IadgcSGXWWnAhHy/g+ozQDzCQTjVe/kR+wuQE+CPQBk=
+  - offset: 227
+    length: 213
+    placeholder_text: |-
+      //Find all li items
+          let li = document.getElementsByTagName("li");
+
+          //Add event listener to all items
+          for (let i = 0; i < li.length; i++) {
+              li[i].addEventListener('click', liClickHandler);
+          }
+    initial_state:
+      length: 213
+      offset: 227
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: mwq8mVI3FMmQdUYbaS1UMzbOQH0UbmIYcermjakF+VvJ0oJkvXVM5vKRzFAwadOtCERU1BR8/bxFaC4/XsfOYlTopYlRu1aynkpmW2HcVC+hYFGaXHFJD0D0NZZ5kr84DHGeeSdIV9mUZbDBoLWQeXWk7LHsZczgSs36it+N6DohCgIqJ6srBXtyoFqG0/dZ
+  - offset: 695
+    length: 71
+    placeholder_text: |-
+      //Retrieve the whole list
+          let ul = document.getElementById('todo');
+    initial_state:
+      length: 71
+      offset: 695
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: HfrmbJYO69o+yz4xEEUBxWtuZ1J1Iabx5ExLxqqpig6VmsPRDtgK5xP9GI5PQ7Hg0YCOw+WPkYir04WrOQwGXw==
+  - offset: 873
+    length: 45
+    placeholder_text: "li.addEventListener('click', liClickHandler);"
+    initial_state:
+      length: 45
+      offset: 873
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: k935ABoIJUmCDRZNxDOqWF13VWgsFUZficrMkIcGrvCTcEJUIqsqutSBXc9pGTwM
+  - offset: 1294
+    length: 39
+    placeholder_text: clickedItem.classList.toggle('yellow');
+    initial_state:
+      length: 39
+      offset: 1294
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: fa3NET78hnPy9zTFjA2HeByEFJ2KO7t+d1K3X/jk/bLnCN6wvvvcMYbElIEiL1GGJGO1FvOj353xZlKkNFxxlSuWDkwFS4BQff+nvBOLKyuLmVofdPrYe+2cFu9uNc84sXw7TXj0x5KIVjLo4vOFf694kDL+Xmfj+886HY+55+edzOz/DEAxI+bPzeHXynEF
+  encrypted_text: H+LDbt2inq3oD6Ru+oJ/uFG0es8zk+sHzQcRd8nm4dyN5a1fLoEdyGzTQ5PrWnTO2AFsgtLeYJYhX3pcWAdKJPlOY5idDE3TyahsM+tWOA0eCIdLEgXO10QG6adWqY0Uw2SasYG/WjXdirVYvcNIAjcTlVP6JP7DtuZ2a6fbOC/SvPy+WAYgHjhFaMv4BKds2GjGqk8Izls2/oYNmcxX3Ffo4VB1t/OoKVsot5Wal7NI7ddb5VSBaTfhCAHLNIS4/jO2OVMjCRU+pyj6zqhQmS7wJwgvRYI8/CwCvIP/7Qsy3QB+Y7FuSaR8IPrK1WtWw9N+BmC0DU2x5LRyEiw4JQeoycqWwQpz+lGAO8QSZAErBnnl6HTFU23W8R6yCh5+/bzJVEzuQI1rCE6agMV6YBJuvtcyy4p11SIU5CfORuM6R1lJpsL+rqsfHD867x3nhY3UEBpKJu/leiL7nFxyP5Rf3u/5Y2wrGeFc5YB0AS4lt1+vZmVVpAniDYhE1G640thQ6DhUJnK7SJT3I7faYcfP/LvuuLnnituBi7c/EApWCgh1mgxlF8xwFz71SKOAXUDNpS40nYfnNCR/FPkbDQWkSIADLSPE87i0MUB9GHQpmZ2z159gNEf4mIseolGE9OsGMXT7TqjBANWCOSz2cosakgK+ylHjJcguLqR5dchXqoKVPN8OGTeoMLmtx26x0SE7FstRhfz57yk1WsIe/uPr1AS6HmxbEDbi8azqnXWt1HkMM7HZYV5XVbSUspXhasSAyoU4NRjWqmfIKl8H+yd4x2X1E/JywAYT7ll+z4QcAiP/m0ZpumIkUImGE6Gq8qkwEn/LrTO71qLQr6EWgiOy0M/f8y+dXBFrQakUr/LM7/jKfYY2lfsDmAMnsQcrtn5spu9PYK7+c1c1VfPRbtIP1dxW5+duMnX3D6Zrw14TozjMB/PrPcnkQlzEVx0Lilt8qkI6NlePScGlNcTgvr6bcX953RPqdTv8Stf9LNACXMpYdPLdhInJSXDbbJagSiArWsz7XuZirok6lDUEM+5NQ4m08/VyVhKJq8ZAqzrEMYfGQmfWKcy5G5dfbrKP4xBLAHt8S2AfNUu4CgFEiufL1YT61A+RWg01IHNAL2T4f1vYrAV0roiBu5MJlaB8l7UmSJQ734xmc6X5gz2d4BPephLlWwzBEBwyYL4ZkjEx/aRw+JLlDxI9/J3NZjpcf0Sfv/hIRgPtBfr0yg3DB1cMGVtCVD6U95GcZkTQFpiKV4J70Lil6Z3jULBTaVqoyeA28WVRECDb14YDYQC1CXSLFbk1tkEdwqxpmgl3X6wkw+w5iu3pnqIzKOyP9Y585EQ7Am+Kx18qQ9AJgSCeqcB+E2EHTP+Co7mYHOLPSr84U2w/mYHjQFr6VJJuNtiJQQza0oMw3dO2IXbGy3FyvQIwUoDttaz2TaNy+yAe8WIzxhN8RJoKLFR0rvD9Yl89DIF0BqxCSSDl5Mq0qIYlx2gOAZrlFhVhaO+/YBlfZM1+fFjFnD0OKThSn6173Nd9lIB45zXJSHYe06kAIVQenjAPPK4p+ZZ1ZFJMKRshHGsFWT/ZaZsMlusX82lIOT/qgIgMeoAsCFkmU9k8gTMSbRWm+W4bWqA+CoclbDwZvVghwwDZihCNa74QY5QvhxGdAJ3t2h23v2sPxMqtr1TcoNJ7+7K8NElfdlqYZbqKRYxqz18sCpRcaw8WyJJRNuUAvnH0YzP5r52ERlWA54mvGijradLckwSfpq4JgFTduf/CzigqbA1C4RH7+oPG0q0I
+  learner_created: false
+- name: test/test.js
+  visible: false
+  encrypted_text: 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
+  learner_created: false
+- name: style.css
+  visible: true
+  encrypted_text: TVpPRVAKAx5Z5XAwFb3lIgnZsSQEb640tEUcdDqz8VUo7gL8eFN0bR3L+3zP2e0Q
+  learner_created: false
+- name: index.html
+  visible: true
+  encrypted_text: aK9s5KtAlZf4IOu9Rd6NPValosbd+dhA/5nPH7/jdycDqkT17Bia9gyjGBugPBsWtzyzAM1cg1k8P0Qm6mePCcWkWixRD3FIUYqBuoRUOO6SixfM2YwnzfB7o8ZVK2Vda7P9+3pgImwR853wT/3exBXGaeAQ0qCi4XUNd9bmezzgji/jnMDIiTZ97Bty1W9ziY028ecBm/ZgdFqgSNMbpML18pRX1yJJGaaFVpJ9DTroSHB0dNyobEsXibeCIhnujuxU4tiI2q3k5MWNLHXhDmEW69hBONfbmrnv5e9UAIRyoCHDJdejFF0oLjbFLR4ObuAFsCAV1oyKv/uzXijj2bqzIWruuaKjNOawDIGpSZjYovmkeYMsvScKKml7jA2addktuxMLKr5iUJ+6d0dUKGyZdzA55pHGatFbpZOGKqy+mKdfjJIwpMZ+uK5IiobdwkbIFS8QotK/gwwlzMdX6sgJykvNK7Szdx5+e4Lo04Zp1SIEpoM1B1k26wgiPa49AYFSt8Hy00kdJSKIKOGQab6D2iFN214vDrZmVexXIkFxF946Ju2TMqpqteyyJ7SEyeqIQI6mke0ak2C1SmpxZctqNyRVzlCM1HRdi4n+AOme2wyNvUaZKpC+VCOB/6Vwn16nEq/FGCVU2U6Y/RFjQvkN7qE/ZhABeRqgxjOq1EbOby+Az8yPiAXYq+uQ2SmqKVrtypARrjo5F+H/KgGv2f4LQV0k4V2dow2gEcz54S4dTh5NWRRHAO9CHUaI9blF45Cd65R7FXGNbbpI2XVGrH6mlIsnChkLwLcw48h09rYmtwVf4tXjJAozoYSBQeLoA6ZfSggYaU19APfiMtAIiOoBCuM6fE2wgo7dTJCT1mYhGklZC4wprlUCGlZK9NdQo/te+oeNQUik0IdcaSw2JR4l1rWlQ4W8Wzds9zwyZAC3S3IfLugeEP1Wn41VFZXG2y/3njJXT0CeahTa+cY7x6Xq0KxzP6l2Fpsehe7oR5jCXU5ej2eDl9WnBGvZUjj/SwTAyKyBX4SC83GiyWkoJwaggucxXB69mQYBXHTKV3QvuWB+00jI5oeeSGUkyC5v02KAaHnidwMFDIUsGNj/qFrlZbS1efdEf8DHwWsxC3o3LV3JdGnqWYKPKEmpDt1J
+  learner_created: false
+status: Unchecked
+record: -1

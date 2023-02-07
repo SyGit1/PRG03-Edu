@@ -1,0 +1,58 @@
+type: edu
+files:
+- name: task.js
+  visible: true
+  placeholders:
+  - offset: 101
+    length: 53
+    placeholder_text: //Koppel de 2 global variabelen aan de HTML elementen
+    initial_state:
+      length: 53
+      offset: 101
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: AmpzIZo2TX3MNrOYB/2ctyKef2/s55bQAJ2AxE2/D6cQ9JTYAI6RNTjBNI7C9Og6Majs8obFVNk2I+rkv4sUWjxIKsM7MSk4OD/Cgi8yN8hZABvZ/TlmqqpwZh91oAE/
+  - offset: 336
+    length: 23
+    placeholder_text: //Click event op button
+    initial_state:
+      length: 23
+      offset: 336
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: yHN5vID2e6F3yamyJKquA0TJjHFxcuqiWfGzY+yFuYXE6AiE5TahyYcyVTiqGoR+dRcQGiz6sEp8jWw3EjF1bg==
+  - offset: 420
+    length: 100
+    placeholder_text: //Zorg ervoor dat de functie 'showCurrentLocation' wordt aangeroepen
+      op basis van de geolocation API
+    initial_state:
+      length: 100
+      offset: 420
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: 87d0AA0lLtcbOpYGvSZ83LBD0HD24Ubq3EdyBLYZFySOd4w0f82dt5kCta7thKPLAsLPJ30LbQhLCphCDWBVg61qlf0CzSyMt8V2fg6kWbpp9r0Wc1oqBtrHpdDrUSBZ3+Odhn2+UBXO0f9LxU8IUeHqcNL/5+CAJoHJE7IOk3o=
+  - offset: 698
+    length: 51
+    placeholder_text: //Plaats de latitude en longitude in de target HTML
+    initial_state:
+      length: 51
+      offset: 698
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: XNJqWvdPhWHnyqc4S7FpQtX+Oa+vueFM0Wy/dobuvSX650JxwvM17INXUdHVFzz8Uae6nnAMKMarLLRdT9Ne5AE65+DGwU36vJrHY3/yjurLxKSiYXDlzn5jqc77819x
+  encrypted_text: H+LDbt2inq3oD6Ru+oJ/uFG0es8zk+sHzQcRd8nm4dz/6z2Q9VFNZ4U9UGkwwERmsXm4uUuwliMWg6uCSfpjX+aZrGjqIAE2SlPCQCxuhjdItm2LuxIZaPvP54FG/qp61xs8Qs75HGWl2x0SPcepjVxIRrrJ+lY/Nyiu4GpHGoZR2//YY+PNNMTbURtN8SqOhrZvam+1xIJxmHjgiuYw86UBZBsMlT0wDRDcQIj02W+odBWonPzfTFflruJ/kjGqbjPmb7N35rFaNw4XKm/+OpisXQpGHaZTaHG1KJ8B1vQ+yhcUoxW4OtE+ab0nSaoGeqo/qu5f9gXBobQER8kwUqqRpZij07QReMpQfy8E/wBlEac5z7mrON3GP6tFjIkR9jgkCIUAQSU5zQ3TfT9CdbY7U4n3p23OI4bGJLRfd1bNjmWL/S+S8X/zhHpCs8xJd3q7rusVsgrvD5N8tG7CZ1ktHurlDdzZy3iB84RnizKM+pCZj6PB6AEs474wHXazY113lYYxvHBo/DCcnJmiht4I9QzXQRy+zbtX5816h88TqAUdc8MuU1rzPzRbdnjzvAMii0b0AVu/1qLCnteE848WLB38ijC7FMCkwfT05MsVUbvzzjB9ial8hVEffxbMc/gqVBLXvr1d/x/B2l32aq8JDVls9pNcc6UYGMkkwmkhKBNGi5q5XQOBLHBkEwvDlNdjxiqRjRzE9LgeJvFu/Q2Ec6Q0RfNERvJfuyAD6+QYKeCGyUgYlWgKQeKx9IzXfIQkbdDHLOJ10OnFfAWbki3NxTOfsGMvPyf065tZYGQfNq2rtSgqUHbVPYLqVKorDIblgW3zEJTHFdmeqGWCLl6hxG55S+ErZZm/Gn9eekWnuyiAQWnFXCp1Zr8T6dqJxU3KF4qTq2IiKB3PHjZ3if2I58X9wEHNosM34VPlVQs0oYd4JLFAIel1NY/ckBRWGWEU8mL67XC7k7m7RS9l/X5tNORv9+K30o5wgkUNGC3SV4ieQaQd7r2f3tugnihz
+  learner_created: false
+- name: test/test.js
+  visible: false
+  encrypted_text: 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
+  learner_created: false
+- name: index.html
+  visible: true
+  encrypted_text: MDmo0BDmYPgVilQBNgV6/GmKnsH5HnA01B0c9bnyRMxp6WXwUpMF08kPT5JXg0UEVrWDnvi7IS9ybiszM2KfSk1mDMh/FViVMd/nLv40PUWu1Qr0EX9N+wp0eQVVKtNSFEWabzvTaVL3gttHnesLbsqiK3tj5oDDyS0J8j++C92GKMwoljxQVgbBM54TdeMIl0lmC0R3sYcTKnsqod+IucMI37uHbbRsXay3v68Te4ou3p31fMTQAnMJ+fvTI5a+w1td6kYXAUeIzWrbOrAMGjoKpKD1KXQvUaB53fXUoblwUObytUwmI9oKMO0lTfuszxXYRf7rJwXxN5NrUdSD7bW8IF5ELCXQHOJrzgw/KNc=
+  learner_created: false
+status: Unchecked
+record: -1

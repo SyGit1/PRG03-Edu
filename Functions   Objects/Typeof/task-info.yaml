@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: typeof numbers === 'array'
+  is_correct: false
+- text: Array.isArray(numbers)
+  is_correct: true
+- text: typeof numbers === 'object'
+  is_correct: false
+message_correct: Lekker bezig!
+message_incorrect: Helaas geeft typeof bij een array altijd 'object' terug. Vandaar
+  dat je voor een array geen typeof check kunt gebruiken maar 'Array.isArray(value)'.
+files:
+- name: task.js
+  visible: true
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+status: Unchecked
+record: -1
+local_check: true

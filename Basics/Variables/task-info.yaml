@@ -1,0 +1,23 @@
+type: edu
+files:
+- name: task.js
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 21
+    placeholder_text: //Hier komt jouw code
+    initial_state:
+      length: 21
+      offset: 0
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: DTAL5RETJxWAHZ6jxygdj5L2XpgCHpkTh9GyZX7O1n+SgFgR20frDcFAF6BX2ztK
+  encrypted_text: WlE1U4Xbk0+PkfZedMrQyjFCtpPlZix5a4IJ5ZspQrQ=
+  learner_created: false
+- name: test/test.js
+  visible: false
+  encrypted_text: JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAcLdH78HcLEmxLTbrbaDT4MXULFyZDfronUpbVMlkidQCBuZyXeW3N7agwtbfZp2LcLgOx/YLvLWh2IuK1ye0SIJRL8qVtpLam6aCLaOZpxzdlSaFyyg+/qpgvQHE/A9Yf0wdxacA4/1wW6FYefIh6vWzJC0SmM4rfdW90U/mWOdG7JMv2P8vniPETzN/hBBhMihajijXZDpQt3R+9mQvQRYXbxi5DcYklGljgTUp5xsGoFOGJKSymHJBEX9B5MOPR2exdj/EnEoUHUwB+HcxIQRK08RQ/e8G+ng2cJKeUb7e2AKyQn2z/zJkyaZmzZ1svv7lWerDiUTJ1UZ69MTGm1r/F5iXk0pwkxMaedYy2+NW+m4g7B+VMbLmw27j6EVr3uI3isFhBQHRh436t6/sacpp3N0rpJ/SDWQshBT8dCdQhhlbjBWXuKsaYtgFZFbr/ekJHLlm0D2bfnWaODZMbsrQIbAGR/GZeMktsoFRthe78ruQtw1NumQ2TxLUC8nfbrMum04r82VbmTvRUMD7mUG3t50lBeS14/HF5K2pRyrV3A0yuasToV2Vicr7F/+5798ipwf0NYvbiAjF7vJRKvnEHv8022Sg+At34uij7N6jENvI1U5rQPEfuAb51bYrCP3CmGZVhx7TwkY7Nb0HRQa2KWIssSM3soOMZgEg+ztOm/Vb5NPSSxvMLgEHhXstF7XlheH9P1PXsWwh834S8=
+  learner_created: false
+status: Unchecked
+record: -1
